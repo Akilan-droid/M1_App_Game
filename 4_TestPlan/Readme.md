@@ -1,18 +1,16 @@
- # High Level Requirements
- 
-   | ID   |      Description     |  Status |
-|----------|:-------------:|------:|
-| HLR_1 |  Customer can choose their meal | Implemented  |
-| HLR_2 |  The discount will be given if applicable  | Implemented  |
-| HLR_3 |   Customer can add more items after choosing items   | Implemented  |
-| HLR_4 |   GST updation happening gradually  | Implemented  |
+# Test Plan
 
- # Low Level Requirements
- 
- 
-  | ID   |      Description     |  Status |
-|----------|:-------------:|------:|
-| LLR_1 |  List of meals and items displayed | Implemented  |
-| LLR_2 |  Customer can choose their items | Implemented  |
-| LLR_3 |  Input from the user  | Implemented  |
-| LLR_4 |  Exit the program  | Implemented  |
+# High Level Test Plan
+| ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
+|---|---|---|---|---|---|
+| HLTP_1 | BreakFast Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
+| HLTP_2 | Lunch Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
+| HLTP_3 | Dinner Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
+
+
+# Low Level Test Plan
+| ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
+|---|---|---|---|---|---|
+| LLTP_1 | BreakFast Calculation | ( A,3,2,2 ) | Rs.40 | Rs.40 | Requirement Based |
+| LLTP_2 | Lunch Calculation | ( B,3,2,1,5,2,2 ) | Rs.560 | Rs.560 | Requirement Based |
+| LLTP_3 | Dinner Calculation | ( C,2,2,2 ) | Rs.140 | Rs.140 | Requirement Based |
