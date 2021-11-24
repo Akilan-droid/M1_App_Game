@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Restaurant_Billing
+PROJECT_NAME = Billing
 
 #Doxyfile folder
 DOC = doc
