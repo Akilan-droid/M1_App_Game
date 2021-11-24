@@ -14,3 +14,5 @@
 | LLTP_1 | BreakFast Calculation | ( A,3,2,2 ) | Rs.40 | Rs.40 | Requirement Based |
 | LLTP_2 | Lunch Calculation | ( B,3,2,1,5,2,2 ) | Rs.560 | Rs.560 | Requirement Based |
 | LLTP_3 | Dinner Calculation | ( C,2,2,2 ) | Rs.140 | Rs.140 | Requirement Based |
+| LLTP_4 | Invalid Entries | (G) | "Sorry Invalid Decision Entered" | "Sorry Invalid Decision Entered"| Requirement Based |
+| LLTP_5 | Invalid Entries | (A,9) | "Sorry Invalid Decision Entered" | "Sorry Invalid Decision Entered"| Requirement Based |
