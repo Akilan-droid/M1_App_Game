@@ -18,10 +18,10 @@
 # Contributors List and Summary
 | Ps no. | Name | Features | Issues raised | Issues resolved | No test cases | Test case Pass |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| **_40020549_** | *Akilan B* | F1,F2,F3 | 1 | 1 | 8 | 8 |
+| **_40020549_** | *Akilan B* | *F1,F2,F3* | 1 | 1 | 8 | 8 |
 
 | No | Features |
 | ---- | ---- |
-| **F1** | Breakfast Bill |
-| **F2** | Lunch Bill | 
-| **F3** | Dinner Bill |
+| **_F1_** | Breakfast Bill |
+| **_F2_** | Lunch Bill | 
+| **_F3_** | Dinner Bill |
