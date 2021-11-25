@@ -1,5 +1,4 @@
 # Report
-
 # Requirements
 ## Introduction
    I developed a Restaurant Billing System using C Programming Language. This program allowed the user to choose a dish from the menu and during checkout the bill along with GST was calculated and displayed. Use Codeblocks to run the code.
@@ -65,7 +64,6 @@
 ![STRUCTURE DIAGRAM](https://user-images.githubusercontent.com/94180547/142774933-d4b47953-b9ef-4600-adea-c05e47a7f5c3.jpg)
 
 # Implementation
-
 ## Folder Structure
 
 | Folder |	Description |
@@ -76,14 +74,12 @@ Src |	Main source code for financial calculator
 Test |	All source code and data for testing purposes
 
 # Test Plan
-
 ## High Level Test Plan
 | ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
 |---|---|---|---|---|---|
 | HLTP_1 | BreakFast Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
 | HLTP_2 | Lunch Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
 | HLTP_3 | Dinner Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
-
 
 ## Low Level Test Plan
 | ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
