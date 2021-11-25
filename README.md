@@ -28,5 +28,5 @@
 # Challenges faced and how was it overcame
 | No | Challenge | Solution |
 | ---- | ---- | ---- |
-| 1 | Codacy alerts | Fixed by refering the issues |
+| 1 | src function issue | Renamed functions.md to Functions.c |
 
