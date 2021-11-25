@@ -25,3 +25,8 @@
 | **_F1_** | Breakfast Bill |
 | **_F2_** | Lunch Bill | 
 | **_F3_** | Dinner Bill |
+# Challenges faced and how was it overcame
+| No | Challenge | Solution |
+| ---- | ---- | ---- |
+| 1 | codacy alerts | Fixed by refering the issues |
+
