@@ -14,20 +14,20 @@
     5. Increased CRM
  # Research 
  ## 4W'S and 1H's
-  ## Why:
+  ## Why
       - To reduce the complexity of Multiple order Billing in Restaurants.
       - I made this to receive multiple orders and payments from many customers by sitting in one place.
       - This Project is to reduce complexity of Restaurant workers.
-  ## Where:
+  ## Where
       - This can be used by many reputed large Restaurants to reduce their business complexity.
       - This can also be used in small scale Restaurants to kickup their Business.
-  ## Who:
+  ## Who
       - The project can used by any business organisation which serves the Restaurants with Solutions.
       - It connects customers and Consumers Digitally.
-  ## When:
+  ## When
       - The user can access it anytime , anywhere.
       - Used when complexity can't be solved.
-  ## How: 
+  ## How
       - By giving different orders , one can find desired total amount.
       - Customers can choose their items & amount of items .
  # SWOT Analysis
