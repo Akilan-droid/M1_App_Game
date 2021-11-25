@@ -14,7 +14,7 @@
     4. GST support 
     5. Increased CRM
  # Research 
- # 4W'S and 1H's
+ ## 4W'S and 1H's
   ## Why:
       - To reduce the complexity of Multiple order Billing in Restaurants.
       - I made this to receive multiple orders and payments from many customers by sitting in one place.
@@ -58,10 +58,10 @@
 | LLR_2 |  Input from the user  | Implemented  |
 | LLR_3 |  Exit the program  | Implemented  |
 
-# BEHAVIOUR DIAGRAM
+## BEHAVIOUR DIAGRAM
 ![BEHAVIOUR STRUCTURE](https://user-images.githubusercontent.com/94180547/142774413-4c424528-34bb-46fe-9e21-b8da5dd6f52d.jpg)
 
-# STRUCTURE DIAGRAM
+## STRUCTURE DIAGRAM
 ![STRUCTURE DIAGRAM](https://user-images.githubusercontent.com/94180547/142774933-d4b47953-b9ef-4600-adea-c05e47a7f5c3.jpg)
 
 # Implementation
@@ -77,7 +77,7 @@ Test |	All source code and data for testing purposes
 
 # Test Plan
 
-# High Level Test Plan
+## High Level Test Plan
 | ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
 |---|---|---|---|---|---|
 | HLTP_1 | BreakFast Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
@@ -85,7 +85,7 @@ Test |	All source code and data for testing purposes
 | HLTP_3 | Dinner Calculation | Choice | SUCCESS | SUCCESS | Requirement Based |
 
 
-# Low Level Test Plan
+## Low Level Test Plan
 | ID | Description | Expected I/P | Expected O/P | Actual O/P | Type Of Test |
 |---|---|---|---|---|---|
 | LLTP_1 | BreakFast Calculation | ( A,3,2,2 ) | Rs.40 | Rs.40 | Requirement Based |
