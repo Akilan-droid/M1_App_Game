@@ -11,7 +11,7 @@
 | 2_Design | Documents specifying design |
 | 3_Implementation | All codes and Documentation |
 | 4_Testplan | Documents with test plans |
-| 5_ImagesandVideos | All the images of this project |
+| 5_Imagesandvideos | All the images of this project |
 | 6_Report | Documentation of whole project |
 | 7_Others | Other Details |
 
