@@ -41,14 +41,15 @@
       - Startups and small scale restaurants can be attracted cause of efficient.
  ## Threats
      - Advanced softwares are available in the market.
- # High Level Requirements
+     
+ ## High Level Requirements
  
    | ID   |      Description     |  Status |
 |----------|:-------------:|------:|
 | HLR_1 |  Customer can choose their meal | Implemented  |
 | HLR_2 |  The discount will be given if applicable  | Implemented  |
 | HLR_3 |   Customer can add more items after choosing items   | Implemented  |
- # Low Level Requirements
+ ## Low Level Requirements
  
  
   | ID   |      Description     |  Status |
