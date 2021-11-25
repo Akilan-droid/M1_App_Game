@@ -69,15 +69,6 @@
 | LLR_3 |  Input from the user  | Implemented  |
 | LLR_4 |  Exit the program  | Implemented  |
 
-# Behavioral diagrams
-   ![BEHAVIOUR STRUCTURE (1)](https://user-images.githubusercontent.com/85438544/142774503-9ffae601-b12a-4f07-9668-9308c3425d40.jpg)
-   
-# Structural Diagrams 
-  ![STRUCTURE DIAGRAM](https://user-images.githubusercontent.com/85438544/142774936-3717520a-d086-4f72-8004-d5fbe12ed31f.jpg)
-
-    
-
-
 # Folder Structure
 | Folder | Description |
 | ---- | ---- |
