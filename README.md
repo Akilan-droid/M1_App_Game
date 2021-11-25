@@ -18,7 +18,7 @@
 # Contributors List and Summary
 | Ps no. | Name | Features | Issues raised | Issues resolved | No test cases | Test case Pass |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| **_40020549_** | Akilan B | F1,F2,F3 | 1 | 1 | 8 | 8 |
+| **_40020549_** | *Akilan B* | F1,F2,F3 | 1 | 1 | 8 | 8 |
 
 | No | Features |
 | ---- | ---- |
