@@ -1,96 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
-int again;
-int total=0;
-float gst,cgst,sgst;
-int bfrate[7][2]={  {0,30},
-                    {1,35},
-                    {2,40},
-                    {3,20},
-                    {4,15},
-                    {5,20},
-                    {6,30}
-                };
-int lunchrate[7][2]={{0,80},
-                {1,120},
-                {2,20},
-                {3,120},
-                {4,150},
-                {5,160},
-                {6,30}};
-int dinner_rate[7][2]={{0,65},
-                {1,50},
-                {2,70},
-                {3,80},
-                {4,65},
-                {5,110},
-                {6,50}};
-int purchased[][3]={{0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0}
-                        };
-int temp[][3]={{0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0},
-                        {0,0}
-                        };
-void bfast(char bfmenu[][100]);
-void lunch( char lunchmenu[][100]);
-void dinner(char dinnermenu[][100]);
-void main_menu();
-void display();
-void lunch_menucard();
-void dinner_menu();
-void display_bf_bill(char bfmenu[][100]);
-void display_lunch_bill(char lunchmenu[][100]);
-void display_dinner_bill(char dinnermenu[][100]);
-void display_bfmenu();
-void repeatbf(char bfmenu[][100]);
-void repeatlunch(char lunchmenu[][100]);
-void repeatdinner(char dinnermenu[][100]);
-void display_total_words();
-void main()
-{
-    char bfmenu[][100]={"toast","Idli-wada","Dosa","Upma","milk","tea","coffee"};
-    char lunchmenu[][100]={"Veg Biryani","Special meal","Roti","Dal","Paneer Tikka","Veg mix","Icecream"};
-    char dinnermenu[][100]={"Fried rice","Spegatti","Burger"};
-    char choice;
-    do
-    {
-        enter:
-        display();
-        printf("Enter your choice here : ");
-        scanf("%c", &choice);
-        getchar();
-        switch(choice)
-        {
-            case 'A':
-            case 'a':printf("\nBreakfast\n");
-                    bfast(bfmenu);
-                    break;
-            case 'B':
-             case 'b':printf("\nLunch\n");
-                    lunch(lunchmenu);
-                    break;
-             case 'C':
-            case 'c':printf("\nDinner\n");
-                    dinner(dinnermenu);
-                    break;
-           default:printf("\nWrong choice entered Please enter the valid choice!!\n");
-                    goto enter;
-        }
-    }while(choice!='d');
-}
+#include"header.h"
+
+
 void display()
 {
-    printf("                Welcome to abc Restaurant.          \n ");
+    printf("                Welcome to GOKUL Restaurant.          \n ");
     printf("             +============================+          \n\n");
     printf("  && Please select the meal that you would like to purchase. && \n\n");
     printf("\t\t      [A] Breakfast\n");
@@ -99,7 +14,7 @@ void display()
 }
 void display_bfmenu()
 {
-    printf("                Welcome to abc Restaurant.          \n ");
+    printf("                Welcome to GOKUL Restaurant.          \n ");
     printf("             +============================+          \n\n");
     printf("                  $  Breakfast Menu  $ \n\n");
     printf("  && Please select the food that you would like to purchase. && \n\n");
@@ -161,7 +76,7 @@ void display_bf_bill(char bfmenu[][100])
 {
     int i;
     printf("  +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          \n\n");
-    printf("                      abc RESTAURANT                   \n");
+    printf("                      GOKUL RESTAURANT                   \n");
     printf("                    BILLING INFORMATION                \n");
     printf("\t\t ITEMS\t\tPrice(in Rs.)\n");
     for(i=0;i<7;i++)
@@ -184,7 +99,7 @@ void display_lunch_bill(char lunchmenu[][100])
 {
     int i;
     printf("  +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          \n\n");
-    printf("                      abc RESTAURANT                   \n");
+    printf("                      GOKUL RESTAURANT                   \n");
     printf("                    BILLING INFORMATION                \n");
     printf("\t\t ITEMS\t\t\tPrice(in Rs.)\n");
     for(i=0;i<7;i++)
@@ -206,7 +121,7 @@ void display_dinner_bill(char dinnermenu[][100])
 {
     int i;
     printf("  +~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+          \n\n");
-    printf("                      abc RESTAURANT                   \n");
+    printf("                      GOKUL RESTAURANT                   \n");
     printf("                    BILLING INFORMATION                \n");
     printf("\t\t ITEMS\t\t\tPrice(in Rs.)\n");
     for(i=0;i<7;i++)
@@ -284,7 +199,7 @@ void dinner(char dinnermenu[][100]) // Dinner Menu Screen
 }
 void lunch_menucard()
 {
-    printf("                Welcome to abc Restaurant.          \n ");
+    printf("                Welcome to GOKUL Restaurant.          \n ");
     printf("             +============================+          \n\n");
     printf("                   $  Lunch Menu  $ \n\n");
     printf("  && Please select the food that you would like to purchase. && \n\n");
@@ -299,7 +214,7 @@ void lunch_menucard()
 }
 void dinner_menu()
 {
-    printf("                Welcome to abc Restaurant.          \n ");
+    printf("                Welcome to GOKUL Restaurant.          \n ");
     printf("             +============================+          \n\n");
     printf("                    $  Dinner Menu  $ \n\n");
     printf("  && Please select the food that you would like to purchase. && \n\n");
