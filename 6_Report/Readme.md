@@ -14,11 +14,6 @@
     4. GST support 
     5. Increased CRM
  # Research 
- ## Then
- ![WhatsApp Image 2021-11-24 at 10 38 56 PM](https://user-images.githubusercontent.com/94180547/143285663-fc918451-ad20-4a52-9a9e-8779567fb5c8.jpeg)
- ## Now       
- ![WhatsApp Image 2021-11-24 at 10 45 06 PM](https://user-images.githubusercontent.com/94180547/143285571-3b42079e-2fad-47fe-8d48-13d55d7873bb.jpeg)
-
  # 4W'S and 1H's
   ## Why:
       - To reduce the complexity of Multiple order Billing in Restaurants.
@@ -62,13 +57,6 @@
 | LLR_1 |  List of meals and items displayed | Implemented  |
 | LLR_2 |  Input from the user  | Implemented  |
 | LLR_3 |  Exit the program  | Implemented  |
-
-# BEHAVIOUR DIAGRAM
-![BEHAVIOUR STRUCTURE](https://user-images.githubusercontent.com/94180547/142774413-4c424528-34bb-46fe-9e21-b8da5dd6f52d.jpg)
-
-# STRUCTURE DIAGRAM
-
-![STRUCTURE DIAGRAM](https://user-images.githubusercontent.com/94180547/142774933-d4b47953-b9ef-4600-adea-c05e47a7f5c3.jpg)
 
 # Implementation
 
