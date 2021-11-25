@@ -28,5 +28,5 @@
 # Challenges faced and how was it overcame
 | No | Challenge | Solution |
 | ---- | ---- | ---- |
-| 1 | codacy alerts | Fixed by refering the issues |
+| 1 | Codacy alerts | Fixed by refering the issues |
 
